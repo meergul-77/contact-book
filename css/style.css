@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/zvezdnoe_nebo_gory_zvezdy_noch_119711_1080x1920.jpg);
+    font-size: 16px;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;  
+    overflow: hidden;
+}
+
+.container_inp{
+    max-width: 968px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: Arial;
+}
+
+#containerList{
+    display: inline-block;
+    width: 50%;
+    margin: 30px ;
+    padding: 30px;
+    background-color: #383749;
+    border-radius: 4px;
+    text-align: left;
+}
+.container:first-child {
+    text-align: center;
+}
+.task-input{
+    margin: 10px;
+}
+.task-list{
+    width: 100%;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+    color: #fff;    
+    border: 2px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+.search-inp{
+    margin-right: 20px;
+    background-color: #584b6e;
+    color: antiquewhite;
+}
+::placeholder{
+    color: rgb(193, 176, 196);
+}
+
+.auth-form{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #383749;
+    border-radius: 4px;
+    text-align: right;
+}
+
+.field{
+    margin-bottom: 1rem;
+}
+
+.field:last-child{
+    margin-bottom: 0;
+}
+
+.field > #inp{
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #584b6e;
+    color: antiquewhite;
+}
+
+.field:last-child>button{
+    padding: 10px;
+    color: #fff;
+    background-color: #584b6e;
+    border: 0;
+    border-radius: 4px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.field:last-child>button:hover{
+    background-color: #1e112c;
+}
+
+.field:last-child{
+    text-align: center;
+}
+
+.main-modal{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+}
+
+.inner-modal{
+    width: 500px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    text-align: center;
+}
+
+.close{
+    text-align: end;
+}
+#containerList .img_btn{
+    text-align: center;
+    width: 24px;
+    height: 24px;
+}
+.btn-delete{
+    background: url(../img/delete.png);
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+}
+.btn-edit{
+    background: url(../img/file_edit.png);
+    background-size: cover;
+    width: 27px;
+    height: 27px;
+}
